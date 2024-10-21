@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-log.git", .upToNextMajor(from: "1.6.1")),
-        .package(url: "https://github.com/swift-server/async-http-client.git", .upToNextMajor(from: "1.22.0"))
+        .package(url: "https://github.com/swift-server/async-http-client.git", .upToNextMajor(from: "1.23.1"))
     ],
     targets: [
         .target(
