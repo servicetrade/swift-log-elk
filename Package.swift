@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.9
 
 import PackageDescription
 
@@ -13,8 +13,8 @@ let package = Package(
         .library(name: "LoggingELK", targets: ["LoggingELK"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-log.git", .upToNextMajor(from: "1.4.0")),
-        .package(url: "https://github.com/swift-server/async-http-client.git", .upToNextMajor(from: "1.5.0"))
+        .package(url: "https://github.com/apple/swift-log.git", exact: "1.6.2"),
+        .package(url: "https://github.com/swift-server/async-http-client.git", exact: "1.25.2")
     ],
     targets: [
         .target(
