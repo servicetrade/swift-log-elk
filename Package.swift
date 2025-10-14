@@ -13,8 +13,8 @@ let package = Package(
         .library(name: "LoggingELK", targets: ["LoggingELK"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-log.git", exact: "1.6.2"),
-        .package(url: "https://github.com/swift-server/async-http-client.git", exact: "1.25.2")
+        .package(url: "https://github.com/apple/swift-log.git", from: "1.6.4"),
+        .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.29.0")
     ],
     targets: [
         .target(
