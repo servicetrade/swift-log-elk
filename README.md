@@ -1,4 +1,5 @@
 # LoggingELK
+# DEPRECATED. Starting from 8.0.0 release of https://github.com/servicetrade/servicetrade-app-ios this repo and related https://github.com/servicetrade/logger are not used. Should be kept for a while in case we need to compile old version. Don't delete before 2027.
 
 ![Swift5.4+](https://img.shields.io/badge/Swift-5.4%2B-orange.svg?style=flat)
 [![release](https://img.shields.io/github/v/release/Apodini/swift-log-elk.svg?include_prereleases&color=blue)](https://github.com/Apodini/swift-log-elk/releases)
